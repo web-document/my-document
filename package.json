@@ -8,10 +8,12 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "docs:dev": "vuepress dev ",
-        "docs:build": "vuepress build ",
-        "deploy-gh": "GH=1 yarn docs:build && bash scripts/deploy-gh.sh"
+        "docs:dev": "vuepress dev",
+        "docs:build": "vuepress build"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "vuepress": "^1.8.2"
+    }
 }
