@@ -1,12 +1,12 @@
 /*
  * @Author: wgj
  * @Date: 2021-04-25 15:36:55
- * @LastEditTime: 2021-04-26 17:23:24
+ * @LastEditTime: 2021-04-27 10:41:48
  * @LastEditors: wgj
  * @Description: 
  */
 module.exports = {
-    base: '/',
+    base: '/blogs/',
     title: '高分云前端文档',
     description: '~~~~~~~~~',
     markdown: {
