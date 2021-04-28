@@ -33,8 +33,8 @@ app.listen(3001, err => {
 
 #### 2. 执行命令
 
-```
-# 初始化packjson
+```bash
+# 初始化package.json
 npm init
 
 # 安装静识别静态目录包
@@ -42,5 +42,7 @@ npm install koa-static --save-dev
 
 #启动服务
 node app
+
+#访问链接 http://localhost:3001
 ```
 
