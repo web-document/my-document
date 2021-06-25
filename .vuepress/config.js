@@ -1,7 +1,7 @@
 /*
  * @Author: wgj
  * @Date: 2021-04-25 15:36:55
- * @LastEditTime: 2021-04-28 15:29:40
+ * @LastEditTime: 2021-06-25 14:39:21
  * @LastEditors: wgj
  * @Description: 
  */
@@ -49,6 +49,8 @@ module.exports = {
             ['/docs/vue-element-admin学习总结.md', 'vue-element-admin学习总结'],
             ['/docs/解决vue-element-admin Tags-view标签刷新消失问题.md', '解决vue-element-admin Tags-view标签刷新消失问题'],
             ['/docs/vue添加路由转场动画.md', 'vue添加路由转场动画'],
+            ['/docs/Cordova相关总结.md', 'Cordova相关总结'],
+
 
             
 
