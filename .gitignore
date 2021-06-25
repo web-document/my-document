@@ -8,7 +8,7 @@ yarn-error.log*
 tests/**/coverage/
 tests/e2e/reports
 selenium-debug.log
-
+dist
 # Editor directories and files
 .idea
 .vscode
@@ -18,6 +18,6 @@ selenium-debug.log
 *.sln
 *.local
 .history
-
+.temp
 package-lock.json
 yarn.lock

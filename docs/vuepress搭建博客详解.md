@@ -1,6 +1,6 @@
-[toc]
+<!-- [toc] -->
 
-# vuepress搭建博客详解
+# vuepress 搭建博客详解
 
 ## 一、介绍
 
@@ -10,12 +10,12 @@
 
 ```
 ├── project
-│   ├── .vuepress 
-│   │   ├── public 
+│   ├── .vuepress
+│   │   ├── public
 │   │   │	└──images
-│   │   └──config.js 
+│   │   └──config.js
 │   ├── docs
-│   │   └──xxx.md 
+│   │   └──xxx.md
 │   └── README.md
 └── package.json
 ```
@@ -44,11 +44,11 @@ vuepress build .
 npm install -g vuepress
 ```
 
-#### 2. 新建project文件夹
+#### 2. 新建 project 文件夹
 
 > 为自定义文件夹，名字可随便取
 
-#### 3. 在project文件夹，新建如下内容
+#### 3. 在 project 文件夹，新建如下内容
 
 - `vuepress`文件夹
 
@@ -61,7 +61,7 @@ npm install -g vuepress
 npm init
 ```
 
-#### 5. 在packeage.json里面，新增
+#### 5. 在 packeage.json 里面，新增
 
 ```json
 "scripts": {
@@ -70,26 +70,25 @@ npm init
         },
 ```
 
-- 我的package.json
+- 我的 package.json
 
 ```json
 {
-    "name": "y",
-    "version": "1.0.0",
-    "description": "'# Hello VuePress!'",
-    "main": "index.js",
-    "directories": {
-        "doc": "docs"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "docs:dev": "vuepress dev ",
-        "docs:build": "vuepress build ",
-    },
-    "author": "",
-    "license": "ISC"
+  "name": "y",
+  "version": "1.0.0",
+  "description": "'# Hello VuePress!'",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev ",
+    "docs:build": "vuepress build "
+  },
+  "author": "",
+  "license": "ISC"
 }
-
 ```
 
 #### 6.执行命令
@@ -128,11 +127,12 @@ npm run docs:build
 
 ##### 相关链接：
 
-- [vuepress官方文档](https://vuepress.vuejs.org/zh/)
+- [vuepress 官方文档](https://vuepress.vuejs.org/zh/)
+
+- [vuepress 爬坑之旅](https://juejin.cn/post/6844903747479404557)
 
 - [VuePress 快速踩坑](https://zhuanlan.zhihu.com/p/36116211)
 
-- [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
+- [Markdown 基本语法](https://www.jianshu.com/p/191d1e21f7ed)
 
-- [Hexo+Github Page搭建个人博客](https://www.jianshu.com/p/8a92a9569734)
-
+- [Hexo+Github Page 搭建个人博客](https://www.jianshu.com/p/8a92a9569734)

@@ -1,7 +1,7 @@
 /*
  * @Author: wgj
  * @Date: 2021-04-25 15:36:55
- * @LastEditTime: 2021-04-27 14:35:35
+ * @LastEditTime: 2021-04-28 15:29:40
  * @LastEditors: wgj
  * @Description: 
  */
@@ -16,26 +16,30 @@ module.exports = {
         // 你的GitHub仓库，请正确填写
         logo: '/images/logo.png',// 注意图片放在 public 文件夹下
 
-        repo: 'https://github.com/wgjh5',
+        // repo: 'https://github.com/wgjh5',
         // 自定义仓库链接文字。
         repoLabel: 'GitHub',
         nav: [{
-                text: '主页',
-                link: './'
-            }, {
-                text: '博客',
-                link: 'https://github.com/wgjh5'
+                text: '首页',
+                link: '/'
             },
+            
+            // {
+            //     text: '博客',
+            //     link: 'https://github.com/wgjh5'
+            // },
             // {
             // text: '求索',
             // items: [
             //     // link：指向链接也可以是外网链接
-            //     {text: 'Segmentfault', link: 'https://segmentfault.com/u/mulander'},
+            //     {text: '掘进', link: 'https://juejin.cn/user/3438928103754782'},
             // ]
             // },
         ],
         sidebar: [
             // ['/', '首页'],
+            ['/docs/vuepress搭建博客详解.md', 'vuepress搭建博客详解'],
+            ['/docs/vuepress+koa搭建博客详解.md', 'vuepress+koa搭建博客详解'],
             ['/docs/vue-cli3.0打包之后去掉打印.md', 'vue-cli3.0打包之后去掉打印'],
             ['/docs/vue自定义loading组件以及相关用法.md', '自定义 loading 组件'],
             ['/docs/获取图片相对坐标.md', '获取图片相对坐标'],
@@ -44,6 +48,9 @@ module.exports = {
             ['/docs/electron和electron-vue的简单介绍.md', 'electron和electron-vue的简单介绍'],
             ['/docs/vue-element-admin学习总结.md', 'vue-element-admin学习总结'],
             ['/docs/解决vue-element-admin Tags-view标签刷新消失问题.md', '解决vue-element-admin Tags-view标签刷新消失问题'],
+            ['/docs/vue添加路由转场动画.md', 'vue添加路由转场动画'],
+
+            
 
 
             //{

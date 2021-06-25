@@ -4,6 +4,7 @@
   "description": "高分云前端文档",
   "main": "index.js",
   "scripts": {
+    "start": "set PORT=3051 && forever start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
