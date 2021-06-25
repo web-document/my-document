@@ -399,7 +399,7 @@ vue init webpack 项目名称
 
 
 ## 使用Cordova打包vue项目的流程
-
+目前使用Cordova的项目：**ai慧学、全朗e家，教师app**
 ### 拉取最新项目代码
 
 > git pull
