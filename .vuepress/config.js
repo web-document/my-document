@@ -1,7 +1,7 @@
 /*
  * @Author: wgj
  * @Date: 2021-04-25 15:36:55
- * @LastEditTime: 2021-06-28 18:34:08
+ * @LastEditTime: 2021-06-28 18:50:44
  * @LastEditors: wgj
  * @Description: 
  */
@@ -50,7 +50,7 @@ module.exports = {
             ['/docs/解决vue-element-admin Tags-view标签刷新消失问题.md', '解决vue-element-admin Tags-view标签刷新消失问题'],
             ['/docs/vue添加路由转场动画.md', 'vue添加路由转场动画'],
             ['/docs/Cordova相关总结.md', 'Cordova相关总结'],
-            ['/docs/gfy-pc-template.md', 'gfy-mobile-template'],
+            ['/docs/gfy-mobile-template.md', 'gfy-mobile-template'],
             ['/docs/gfy-pc-template.md', 'gfy-pc-template'],
 
 
