@@ -91,7 +91,7 @@ npm run build
 - `/src/api/index.js`：用于存放公共的接口，例如上传图片，请求学校列表、班级列表等；
 - `/src/api/xxx.js`：自己按照模块去划分的接口，不过要与`views`里面的模块一一对应；
 
-![image-20210628115335001](img/image-20210628115335001.png)
+![image-20210628115335001](./img/image-20210628115335001.png)
 
 #### 示例：
 
@@ -150,13 +150,13 @@ export default {
 - `reset.scss`：覆盖 UI 的 css
 - `variables.scss`：全局变量，颜色字体大小等
 
-![image-20210628144415727](img/image-20210628144415727.png)
+![image-20210628144415727](./img/image-20210628144415727.png)
 
 #### images
 
 > 存放静态图片，需要按照模块去划分
 
-![image-20210628144629173](img/image-20210628144629173.png)
+![image-20210628144629173](./img/image-20210628144629173.png)
 
 #### components
 
@@ -340,7 +340,7 @@ export default router
 
 - `index.js`：vuex 模块化汇总引入
 
-![image-20210628163806709](img/image-20210628163806709.png)
+![image-20210628163806709](./img/image-20210628163806709.png)
 
 #### 示例;
 
@@ -634,7 +634,7 @@ views/
 
 - 与`router`、`api`等要一一对应
 
-![image-20210628173524711](img/image-20210628173524711.png)
+![image-20210628173524711](./img/image-20210628173524711.png)
 
 ### permission.js
 
