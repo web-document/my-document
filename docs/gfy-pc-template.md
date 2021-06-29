@@ -17,6 +17,8 @@
 - 多环境打包配置，development、sit、production
 - 打包优化，代码压缩，图片压缩，去掉打包之后的打印（可选）
 - md5 加密方法集成，全局引入
+- echarts图表
+- [vue-video-player视频组件](https://www.npmjs.com/package/vue-video-player)
 - Excel导出功能
 
 备注：
