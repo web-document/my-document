@@ -1,13 +1,13 @@
 /*
  * @Author: wgj
  * @Date: 2021-04-25 15:36:55
- * @LastEditTime: 2021-06-28 18:50:44
+ * @LastEditTime: 2021-06-30 11:52:35
  * @LastEditors: wgj
  * @Description: 
  */
 module.exports = {
-    base: '/',
-    title: '高分云前端文档',
+    base: '/document/',
+    title: '前端文档',
     description: '~~~~~~~~~',
     markdown: {
         lineNumbers: true // 代码块显示行号
@@ -52,6 +52,12 @@ module.exports = {
             ['/docs/Cordova相关总结.md', 'Cordova相关总结'],
             ['/docs/gfy-mobile-template.md', 'gfy-mobile-template'],
             ['/docs/gfy-pc-template.md', 'gfy-pc-template'],
+            ['/docs/如何接入fundebug.md', '如何接入fundebug'],
+            ['/docs/要记得东西.md', '要记得东西'],
+            ['/docs/node/如何使用nvm管理node版本.md', '如何使用nvm管理node版本'],
+
+
+
 
 
             
