@@ -1,7 +1,7 @@
 {
   "name": "gfy-web-note",
   "version": "1.0.0",
-  "description": "高分云前端文档",
+  "description": "前端文档",
   "main": "index.js",
   "scripts": {
     "start": "set PORT=3051 && forever start app.js",
